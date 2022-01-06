@@ -24,6 +24,7 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+        "quotes": [2, "double"]
     }
 }
