@@ -50,6 +50,11 @@
               "tsx": "never"
             }
          ],
-         "react/jsx-props-no-spreading": "off"
+         "react/jsx-props-no-spreading": "off",
+         "linebreak-style": "off",
+         "react/jsx-one-expression-per-line": "off",
+         "jsx-a11y/anchor-is-valid": "off",
+         "react/self-closing-comp": "off",
+         "object-curly-spacing": "off"
     }
 }
