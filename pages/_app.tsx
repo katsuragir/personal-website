@@ -6,21 +6,26 @@ import "../styles/tooplate-style.css";
 import "../styles/unicons.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/Headroom.js"></script>
-        <script src="js/jQuery.headroom.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/smoothscroll.js"></script>
-        <script src="js/custom.js"></script>
+        <meta charSet="utf-8" />
+        <title>RGB Solution: Website Personal Resume</title>
+        <base href="/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Component {...pageProps} />
+      <Script src="/public/js/jquery-3.3.1.min.js" />
+      <Script src="/public/js/popper.min.js" />
+      <Script src="/public/js/bootstrap.min.js" />
+      <Script src="/public/js/Headroom.js" />
+      <Script src="/public/js/jQuery.headroom.js" />
+      <Script src="/public/js/owl.carousel.min.js" />
+      <Script src="/public/js/smoothscroll.js" />
+      <Script src="/public/js/custom.js" />
     </>
   );
 }
