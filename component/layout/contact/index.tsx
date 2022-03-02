@@ -26,7 +26,11 @@ export default function Contact() {
                     ridhobagaskara68@gmail.com
                   </a>
                 </p>
-                <p className="footer-text mb-0">github.com/katsuragir</p>
+                <p>
+                  <a href="https://github.com/katsuragir">
+                    github.com/katsuragir
+                  </a>
+                </p>
               </div>
 
               <ul className="social-links">
