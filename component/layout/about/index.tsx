@@ -29,7 +29,7 @@ export default function About() {
               <p>Building a successful product is a challenge.</p>
 
               <div className="custom-btn-group mt-4">
-                <a href="#" className="btn mr-lg-2 custom-btn">
+                <a href="https://drive.google.com/file/d/17tK9QWLiCJa8r-9jnVzSxp3dRmWCg9OX/view?usp=sharing" className="btn mr-lg-2 custom-btn">
                   <i className="uil uil-file-alt"></i> Download Resume
                 </a>
               </div>
