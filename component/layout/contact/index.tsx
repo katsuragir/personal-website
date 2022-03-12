@@ -69,25 +69,47 @@ export default function Contact() {
             <div className="contact-form">
               <h2 className="mb-4">Interested to work together? Let's talk</h2>
 
-              <div className="row">
-                <div className="col-12" style={{ textAlign: "center" }}>
-                  <Image
-                    src="/QRcode.png"
-                    width={200}
-                    height={200}
-                    alt="QRCode"
-                  />
-                </div>
+              <form action="" method="get">
+                <div className="row">
+                  <div className="col-lg-6 col-12">
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="name"
+                      placeholder="Your Name"
+                      id="name"
+                    />
+                  </div>
 
-                <div className="ml-lg-auto col-lg-5 col-12">
-                  <a
-                    href="https://wa.link/bycka8"
-                    className="btn mr-lg-2 custom-btn"
-                  >
-                    Whatapps
-                  </a>
+                  <div className="col-lg-6 col-12">
+                    <input
+                      type="email"
+                      className="form-control"
+                      name="email"
+                      placeholder="Email"
+                      id="email"
+                    />
+                  </div>
+
+                  <div className="col-12">
+                    <textarea
+                      name="message"
+                      rows={6}
+                      className="form-control"
+                      id="message"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+
+                  <div className="ml-lg-auto col-lg-5 col-12">
+                    <input
+                      type="submit"
+                      className="form-control submit-btn"
+                      value="Submit"
+                    />
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>

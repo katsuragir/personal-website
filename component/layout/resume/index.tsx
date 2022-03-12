@@ -72,8 +72,8 @@ export default function Resume() {
                     <small>PT Bank Mandiri(Perseroan) Tbk</small>
                   </h3>
                   <p>
-                    Membangun project frontend Backoffice mandiri, sebagai
-                    outsourcing.
+                    Membangun project frontend Backoffice Digital Delivery
+                    mandiri.
                   </p>
                 </div>
               </div>
